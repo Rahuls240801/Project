@@ -1,36 +1,14 @@
-# Content-Based-Movie-Recommender-System-with-sentiment-analysis-using-AJAX
+Movie Recommender System with sentiment analysis using Machine Learning
 
-![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
-![Framework](https://img.shields.io/badge/Framework-Flask-red)
-![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
-![API](https://img.shields.io/badge/API-TMDB-fcba03)
+In this evolving world, entertainment is a necessity for each one of us to refresh our mood and energy. Entertainment regains our confidence for work and we can work more enthusiastically. For revitalising ourselves, we can listen to our preferred music or can watch movies of our choice. For watching favourable movies online we can utilise movie recommendation systems,which are more reliable, since searching for preferred movies will require more and more time which one cannot afford to waste. In this project, to improve the quality of a movie recommendation system, sentiments are analysed from the reviews given by the user using the Cosine Similarity
+concept in the proposed methodology and comparative results have been shown which depicts that the proposed approach shows an improvement in the accuracy, quality and scalability of the movie recommendation system than the pure approaches in three different datasets.
 
+A recommendation system or recommendation engine is a model used for information filtering where it tries to predict the preferences of a user and provide suggestions based on these preferences. These systems have become increasingly popular nowadays and are widely used today in areas such as movies, music, books,videos, clothing,
+restaurants, food, places and other utilities. These systems collect information about a user's preferences and behaviour, and then use this information to improve their suggestions in the future.
 
-Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
-
-The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
-
-Check out the live demo: https://mrswsa.herokuapp.com/
-
-Link to youtube demo: https://www.youtube.com/watch?v=dhVePtyECFw
-
-# Note
-
-> #### Use this URL - https://the-movie-buff.herokuapp.com/ - in case if you see application error in the above mentioned URL
-
-## The Movie Cinema
-
-I've developed a similar application called "The Movie Cinema" which supports all language movies. But the only thing that differs from this application is that I've used the TMDB's recommendation engine in "The Movie Cinema". The recommendation part developed by me in this application doesn't support for multi-language movies as it consumes 200% of RAM (even after deploying it to Heroku) for generating Count Vectorizer matrix for all the 700,000+ movies in the TMDB. 
-
-Link to "The Movie Cinema" application: https://the-movie-cinema.herokuapp.com/
-
-Don't worry if the movie that you are looking for is not auto-suggested. Just type the movie name and click on "enter". You will be good to go eventhough if you made some typo errors.
-
-Source Code: https://github.com/kishan0725/The-Movie-Cinema
-
-## Featured in Krish's Live Session on YouTube
-
-[![krish youtube](https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/static/krish-naik.PNG)](https://www.youtube.com/watch?v=A_78fGgQMjM)
+Movies are a part and parcel of life. There are different types of movies like some for entertainment, some for educational purposes, some are animated movies for children, and some are horror movies or action films. Movies can be easily differentiated through their genres like comedy, thriller, animation, action etc. Other ways to distinguish among movies can be either by releasing year, language, directoretc. Watching movies online, there are a number of bmovies to search for in our most liked movies . Movie Recommendation Systems helps us to search our preferred movies among all of these different types of movies and hence reduce the trouble of spending a lot of time searching our favourable movies. So, it requires that the movie recommendation system should be very reliable and should provide us with
+the recommendation of movies which are exactly the same or most matched with our preferences.A large number of companies are making use of recommendation systems to
+increase user interaction and enrich a user's shopping experience. Recommendation systems have several benefits, the most important being customer satisfaction and revenue.Movie Recommendation system is a very powerful and important system. But, due to the problems associated with a pure collaborative approach, movie recommendation systems also suffer with poor recommendation quality and scalability issues..
 
 ## How to get the API key?
 
